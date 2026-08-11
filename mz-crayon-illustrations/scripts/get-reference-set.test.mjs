@@ -6,11 +6,12 @@ import test from "node:test";
 import { fileURLToPath } from "node:url";
 
 const script = path.join(path.dirname(fileURLToPath(import.meta.url)), "get-reference-set.ps1");
+const powershell = process.platform === "win32" ? "powershell.exe" : "pwsh";
 
 function resolveSet(action, companion) {
   const args = ["-NoProfile", "-File", script, "-Action", action];
   if (companion) args.push("-Companion", companion);
-  const result = spawnSync("powershell.exe", args, { encoding: "utf8" });
+  const result = spawnSync(powershell, args, { encoding: "utf8" });
   if (result.status !== 0) throw new Error(`${result.stdout}${result.stderr}`.trim());
   return JSON.parse(result.stdout);
 }
@@ -79,7 +80,7 @@ test("legacy lifestyle-cat maps to free pose with included companion", () => {
 });
 
 test("list exposes only the sixteen core actions", () => {
-  const result = spawnSync("powershell.exe", [
+  const result = spawnSync(powershell, [
     "-NoProfile", "-File", script, "-List",
   ], { encoding: "utf8" });
   assert.equal(result.status, 0);
@@ -90,7 +91,7 @@ test("list exposes only the sixteen core actions", () => {
 });
 
 test("unknown action fails closed", () => {
-  const result = spawnSync("powershell.exe", [
+  const result = spawnSync(powershell, [
     "-NoProfile", "-File", script, "-Action", "unknown-pose",
   ], { encoding: "utf8" });
   assert.notEqual(result.status, 0);
@@ -98,7 +99,7 @@ test("unknown action fails closed", () => {
 });
 
 test("unknown companion mode fails closed", () => {
-  const result = spawnSync("powershell.exe", [
+  const result = spawnSync(powershell, [
     "-NoProfile", "-File", script, "-Action", "free", "-Companion", "sometimes",
   ], { encoding: "utf8" });
   assert.notEqual(result.status, 0);
