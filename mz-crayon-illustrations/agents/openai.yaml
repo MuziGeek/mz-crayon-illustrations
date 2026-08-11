@@ -1,0 +1,4 @@
+interface:
+  display_name: "MZ Crayon Illustrations"
+  short_description: "Independent Muzi crayon knowledge illustration workflow"
+  default_prompt: "Use $mz-crayon-illustrations to plan and render one independent, review-first Muzi crayon knowledge illustration from this content."

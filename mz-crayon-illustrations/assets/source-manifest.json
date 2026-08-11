@@ -1,0 +1,125 @@
+{
+  "schema": "creator.muzi-crayon-identity-sources/1",
+  "status": "READY_FOR_REVIEW",
+  "distribution": {
+    "status": "APPROVED_FOR_SKILL_OPERATION",
+    "license": "MZ Reference Asset License 1.0"
+  },
+  "policy": "Only approved personal-IP identity and action illustrations are bundled. No raw personal photo or original third-party style reference is included.",
+  "sources": [
+    {
+      "asset": "identity/muzi-crayon-master.png",
+      "role": "identity-master",
+      "source": "personal-ip-avatar-main-v3.png",
+      "sha256": "110759B516149F0F231283C92B6713CE2027B99110EE4F8599114F996467C6C0"
+    },
+    {
+      "asset": "identity/muzi-crayon-cat-master.png",
+      "role": "companion-identity-master",
+      "source": "generated with built-in imagegen from approved Muzi crayon cat and style references",
+      "sha256": "55EB8E4788CBFA4502ADEBB4593FD94E167F81C5E1A2F08773D0B3F142E37CD2"
+    },
+    {
+      "asset": "identity/muzi-crayon-fullbody-style.png",
+      "role": "full-body-outfit-master",
+      "source": "approved Muzi connect action reference",
+      "sha256": "FC286C851A8CAC6A9C3F943525C49B0CBC9AEB892A9BFC542F1B94F40901F07E"
+    },
+    {
+      "asset": "identity/muzi-crayon-inspect.png",
+      "role": "action-inspect",
+      "source": "derived from cleaned V3 identity master",
+      "sha256": "529CB640DD7A5558086EB10A5F61884958FF5927B5A708339D387072D16E3379"
+    },
+    {
+      "asset": "identity/muzi-crayon-connect.png",
+      "role": "action-connect",
+      "source": "derived from cleaned V3 identity master",
+      "sha256": "FC286C851A8CAC6A9C3F943525C49B0CBC9AEB892A9BFC542F1B94F40901F07E"
+    },
+    {
+      "asset": "identity/muzi-crayon-build.png",
+      "role": "action-build",
+      "source": "derived from cleaned V3 identity and full-body outfit masters",
+      "sha256": "3A00BA00720F04B941305D2B17A92A7FD1A7FCF6A5CD45725244C4BC72EAABEF"
+    },
+    {
+      "asset": "identity/muzi-crayon-explain.png",
+      "role": "action-explain",
+      "source": "derived from cleaned V3 identity and full-body outfit masters",
+      "sha256": "71E342FEC8E5F91B9D1433ECE797F171DF514F15F4D4887B1B892F7F53AD12C8"
+    },
+    {
+      "asset": "identity/muzi-crayon-decide.png",
+      "role": "action-decide",
+      "source": "derived from cleaned V3 identity and full-body outfit masters",
+      "sha256": "B3D80182838C35A912BAA62288486C66162D93D3C61498C1B545CCB6EB772BD1"
+    },
+    {
+      "asset": "identity/muzi-crayon-collect.png",
+      "role": "action-collect",
+      "source": "generated with built-in imagegen from approved Muzi identity and full-body outfit masters",
+      "sha256": "2A831D441D63DC8ED6AB12893377565A67374A0664674AD3ADBDEBE2A8C97A14"
+    },
+    {
+      "asset": "identity/muzi-crayon-read.png",
+      "role": "action-read",
+      "source": "generated with built-in imagegen from approved Muzi identity and full-body outfit masters",
+      "sha256": "E3A78E01825698B1E8B861E25C7F4BE7E78C88FA61E1400EF740BD85F438A7ED"
+    },
+    {
+      "asset": "identity/muzi-crayon-compare.png",
+      "role": "action-compare",
+      "source": "generated with built-in imagegen from approved Muzi identity and full-body outfit masters",
+      "sha256": "483854F6DBECAEC8AEDAF9B0C18F2FD0475CFFC4F7BFDC0464A9BBDF0C389567"
+    },
+    {
+      "asset": "identity/muzi-crayon-sort.png",
+      "role": "action-sort",
+      "source": "generated with built-in imagegen from approved Muzi identity and full-body outfit masters",
+      "sha256": "D653A6E4041295DC23D48C738DA1331B4DB151F26CAC2A2F2823836EE6D6420B"
+    },
+    {
+      "asset": "identity/muzi-crayon-stop-check.png",
+      "role": "action-stop-check",
+      "source": "generated with built-in imagegen from approved Muzi identity and full-body outfit masters",
+      "sha256": "E9DA6130A48276FC8BB5373A64622847F62CA54ACF07350BA46F7D0E0310AA5F"
+    },
+    {
+      "asset": "identity/muzi-crayon-write.png",
+      "role": "action-write",
+      "source": "generated with built-in imagegen from approved Muzi identity and full-body outfit masters",
+      "sha256": "EDA25300D46E1FD3EF9F2BDA29EF3E1AC8A50BEF46310C05CABF8995FD0BB66E"
+    },
+    {
+      "asset": "identity/muzi-crayon-test.png",
+      "role": "action-test",
+      "source": "generated with built-in imagegen from approved Muzi identity and full-body outfit masters",
+      "sha256": "2E19C7BAF058637A14D77701A5BD0599199F5D84A29DB1F02E5710E98F965107"
+    },
+    {
+      "asset": "identity/muzi-crayon-repair.png",
+      "role": "action-repair",
+      "source": "generated with built-in imagegen from approved Muzi identity and full-body outfit masters",
+      "sha256": "0CEC29A26B29135DC3579D3644F719091B17AA895BF5AFA7D635BFB0F6FA73C1"
+    },
+    {
+      "asset": "identity/muzi-crayon-retrieve.png",
+      "role": "action-retrieve",
+      "source": "generated with built-in imagegen from approved Muzi identity and full-body outfit masters",
+      "sha256": "1BA21114546ABAA9D5BDE4394BCEF712B13E06FAAD5E3509FEDE38CBA84F8E4C"
+    },
+    {
+      "asset": "identity/muzi-crayon-share.png",
+      "role": "action-share",
+      "source": "generated with built-in imagegen from approved Muzi identity and full-body outfit masters",
+      "sha256": "50F2C037638730FEF0604264E1787641B17C998704F826355DDC585C02530F99"
+    },
+    {
+      "asset": "identity/muzi-crayon-deliver.png",
+      "role": "action-deliver",
+      "source": "generated with built-in imagegen from approved Muzi identity and full-body outfit masters",
+      "sha256": "3E9D714ACA5DFD747367215322554D0D4BB22F5A954C2B08859CD6798475838A"
+    }
+  ]
+}
