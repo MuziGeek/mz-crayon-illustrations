@@ -28,6 +28,12 @@ Generate one-judgment-per-image personal-IP illustrations for knowledge content.
 5. Use [QA checklist](references/qa-checklist.md) to check Muzi identity, outfit, crayon medium, active participation, anatomy, composition, roles, flow, labels, and the selected companion state. Regenerate at most twice for identity, composition, anatomy, or companion failures. If the image still fails, stop without writing a valid review. Allow at most two local text-correction rounds.
 6. Validate with `scripts/validate-muzi-review.mjs --file <review.json>` and save a `creator.muzi-crayon-review/3` record with the PNG. Continue to validate historical `/1` and `/2` records, but write all new outputs as `/3`.
 
+## MZ Visual Engine handoff
+
+When the user supplies an `mz.visual-brief/1`, validate it first with `python scripts/validate_visual_brief.py <brief.json>`. Accept only a resolved `knowledge-illustration` brief using `mz-crayon-v2`. The brief may provide intent, content constraints, and locked labels, but it never overrides Muzi identity, outfit, companion rules, action selection, source facts, QA, or user acceptance.
+
+The bundled `references/visual-engine/` snapshot is the versioned Engine subset for this Skill. Do not edit it by hand; replace it only with an Engine export after running `python references/visual-engine/scripts/verify_snapshot.py references/visual-engine`.
+
 ## Preserve
 
 - Muzi identity: a rounded adult male character with a large head and small body, shoulder-length dark hair, sunglasses resting on the head, large eyes, and a calm, friendly expression. Use `assets/identity/muzi-crayon-master.png` as the identity authority.

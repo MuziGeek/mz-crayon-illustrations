@@ -1,6 +1,6 @@
 {
   "format": "mz.public-skill/1",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "repository": "MuziGeek/mz-crayon-illustrations",
   "treeHashAlgorithm": "sha256(sorted payload-relative-path + tab + normalized-file-sha256 + LF)",
   "licenses": {
@@ -10,10 +10,14 @@
   "skill": {
     "id": "mz-crayon-illustrations",
     "directory": "mz-crayon-illustrations",
-    "treeHash": "0b9a5d3629f0763f7785c3b6d52b33824b9d192f5b2d464e01538d0bba4a0408"
+    "treeHash": "92db6d119ca682fac91049dacc38b662df0c437d54978b870776c3dbd0262af2"
+  },
+  "visualEngine": {
+    "version": "1.2.0",
+    "snapshotHash": "a974ade64cd37b9402992e888455775dff9d8a72ce0165cbd8ad6aa0d4279e54"
   },
   "release": {
-    "tag": "v1.0.0",
+    "tag": "v1.1.1",
     "artifactChecksumAlgorithm": "sha256"
   }
 }

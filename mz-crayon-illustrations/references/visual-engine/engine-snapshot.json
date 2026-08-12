@@ -1,0 +1,49 @@
+{
+  "format": "mz.engine-snapshot/1",
+  "engineVersion": "1.2.0",
+  "target": "illustration",
+  "sourceCatalogHash": "aff0b457985263f3447a71feb32e72f0f5310a7b0191adeccb7b336ea5a6da58",
+  "files": [
+    {
+      "path": "schemas/mz-contracts-v1.json",
+      "sha256": "6c7adb62cc6dbc39083e617a49324810f7d1f9d4fcc96ea8b76a63cda152ef2d"
+    },
+    {
+      "path": "references/core.md",
+      "sha256": "2cd977c2566af992237f0f78487f83c03e1ea838526f8c7010446e6b82a39fad"
+    },
+    {
+      "path": "references/contracts.md",
+      "sha256": "e86204ae9f1c5d4e31f81fa4e96349b03ff7c8b2c647463fb222b84cda772dbd"
+    },
+    {
+      "path": "references/evaluation.md",
+      "sha256": "e9ef6de5e1f81382cbebe1793ad54e9601e5d5905f68f4d740b95643907d0902"
+    },
+    {
+      "path": "scripts/engine_lib.py",
+      "sha256": "0f7ca729385b1e9ff0f7eb249e0e104acab9ab2fa16e118666b66c1a1fa55b1d"
+    },
+    {
+      "path": "scripts/verify_snapshot.py",
+      "sha256": "29dc7d033ca57a0a7fa517abd86c2b294699688e6e1d781833d9dca60a1c8f91"
+    },
+    {
+      "path": "styles/presets/mz-crayon-v2.json",
+      "sha256": "d9d0883924a5a5349a5a9c3e6e9a55f02f016f3035ef53ec6398653dedf69188"
+    },
+    {
+      "path": "styles/modifiers/mz-quiet-v1.json",
+      "sha256": "4b678d2c06f8d94632cec3f2d355ed571b9f99f784a1d0a981ccd82c92cf747d"
+    },
+    {
+      "path": "styles/modifiers/mz-warm-v1.json",
+      "sha256": "961f596145a93a2eedc0c617341aca06f8a475b6f0150b89abbc641b26b7887e"
+    },
+    {
+      "path": "profiles/knowledge-illustration.json",
+      "sha256": "73049291881d57a06f9ce58575a784596f01c9185cd8f474c6fb9bab6e191440"
+    }
+  ],
+  "snapshotHash": "a974ade64cd37b9402992e888455775dff9d8a72ce0165cbd8ad6aa0d4279e54"
+}
