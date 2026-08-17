@@ -2,6 +2,6 @@
   "format": "mz.asset-profile/1",
   "id": "knowledge-illustration",
   "target": {"skill": "mz-crayon-illustrations", "mode": "knowledge-illustration"},
-  "supportedPresets": ["mz-crayon-v2"],
-  "hardConstraints": {"format": "PNG", "width": 1672, "height": 941, "ratio": "16:9", "prohibited": ["identity override", "unconfirmed labels", "external IP"]}
+  "supportedPresets": ["mz-crayon-base-v1"],
+  "hardConstraints": {"format": "PNG", "width": 1672, "height": 941, "ratio": "16:9", "prohibited": ["bundled private identity", "unconfirmed labels", "external IP"]}
 }

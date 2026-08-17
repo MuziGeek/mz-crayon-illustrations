@@ -1,50 +1,20 @@
-# 验收清单
+# QA checklist
 
-## 生成前
+## Before generation
 
-- 核心判断只有一个；信息结构、构图和密度已填写。
-- `minimal` 有 1–3 个物件，`narrative` 有 3–6 个物件；每个物件都有 `problem`、`action`、`result` 或 `state` 分工。
-- 故事动线完整，标签为从用户输入中锁定的 3–6 个短语。
-- 身份母版与全身穿搭母版已选；`library` 只再选一张动作图，`free` 不加载动作图；动作索引图不进入引用链。
-- 已记录 `companion mode`、选择理由和小猫姿态/位置；用户未指定时，只有生活、陪伴、情绪、个人反思或低密度阅读/审视/书写/解释场景可选择 `include`。
-- `include` 已加载独立小猫母版；`exclude` 没有加载猫图。对比、序列、`narrative`、风险暂停和严格技术图默认排除小猫。
-- 没有自动检索或引入外部图片、地标、品牌和事实。
+- One core judgment, one structure, one density, one original metaphor.
+- `minimal` has 1–3 named objects; `narrative` has 3–6. Every object has a semantic role.
+- Story flow and 3–6 exact user-grounded labels are locked.
+- `characterMode` is `none` unless a validated explicit Character Profile exists.
+- No external fact, brand, landmark, interface, or image was retrieved automatically.
 
-## 生成后必过
+## After generation
 
-### 身份与媒介
+- Output is a 1672×941 PNG and remains readable at thumbnail size.
+- The main objects and their roles are understandable within three seconds.
+- Every object serves the judgment; arrows, paths, scale, or position create one readable flow.
+- The image reads as neutral public crayon rather than a private identity system, photo, 3D render, watercolor, or presentation grid.
+- Only the locked labels appear; no logo, watermark, internal production text, or invented fact appears.
+- With `external`, the supplied character participates and passes its own private QA; with `none`, no recurring mascot appears.
 
-- 1672×941 PNG；主体在 64px 缩略图仍能识别深色中长发、头顶墨镜和大眼。
-- 圆润成年脸型与大头小身比例稳定，无幼儿化或脸龄漂移。
-- 全身或三分之二身画面保持黑色棒球外套、炭黑宽松直筒裤和黑白运动鞋。
-- 画面首先被看作暖白、深藏蓝、姜黄、锈红的蜡笔动漫插画，不像照片、绘本水彩、产品方案扁平图或 Gimi 怪诞线稿。
-- 木子主动判断、操作、连接、引导或解释，不是角落摆件。
-
-### 陪伴角色
-
-- `include` 时只有一只小猫，保持奶油色长毛、深藏蓝/灰棕重点色脸耳爪尾、蓬松尾巴和低饱和冰蓝眼；没有短毛暹罗、幼猫比例、真实毛发、项圈、蝴蝶结或服装漂移。
-- 小猫位于木子角色群组内，可见面积不超过木子角色面积约三分之一，只用视线、耳朵、尾巴或姿态呼应。
-- 小猫没有拿道具、触碰主物件、连接箭头、附带标签、占据安静区域、进入 `objects` 或成为故事动线节点。
-- `exclude` 时画面中没有猫、猫形图标或替代性动物吉祥物。
-
-### 表达与构图
-
-- 3 秒内能说出至少一个主物件及其分工，并跟完“发生了什么”。
-- `objects` 中的每个物件都出现在画面里且服务判断，没有无关装饰；专业主题优先使用专业物件，不盲套万能隐喻。
-- 构图与 review 的 `structure`、`composition`、`density` 一致；序列图只有 2–4 个主节点，异常状态不伪装成额外步骤。
-- `minimal` 保持 1–3 个物件；`narrative` 保持 3–6 个物件，并通过大小、位置、线条和留白形成层级。
-- 故事动线由手势、视线、箭头或路径连接，不是物件散落；标签贴在对应物件或动线节点。
-- 原创物理隐喻可读；没有复制动作参考、外部 IP 或既有案例的场景与构图。
-
-### 安全与文字
-
-- 只有锁定的 3–6 个中文短标签，无内部制作标签、标题占位符、无法确认的事实或额外文字。
-- 无木南树灵、树环、苔绿、针织、Logo、Gimi 马帽女孩或其专属锚点、额外人物、额外猫咪、平台界面、水印、肢体异常。
-
-## 失败与重试
-
-- 身份、穿搭、媒介、主动参与、构图、肢体或陪伴角色任一失败，整图最多重生成两次；每次先改 shot spec 或提示词中的对应字段，不通过改身份锚点掩盖问题。
-- 两次重生成后仍失败，停止并说明原因；不写有效 `READY_FOR_REVIEW` 记录。
-- 标签错字只做局部修订，最多两轮；不能改变锁定原文，也不能让人物、构图或色盘漂移。
-
-通过后写入 `creator.muzi-crayon-review/3`。`identityChecks` 的 `faceAndHair`、`sunglasses`、`outfitAndProportion`、`crayonStyle`、`activeParticipation` 必须全部为 `true`。`include` 时 `companionChecks.identity`、`subordinateScale`、`passiveRole` 必须全部为 `true`；`exclude` 时 `companionChecks` 必须为 `null`。
+Regenerate at most twice for medium, composition, anatomy, or Character Profile failures. Make at most two local text corrections. Then stop without a valid review.

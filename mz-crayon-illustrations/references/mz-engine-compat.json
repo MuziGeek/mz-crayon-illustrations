@@ -1,0 +1,9 @@
+{
+  "format": "mz.engine-compat/1",
+  "engineVersion": "2.0.0",
+  "target": "illustration",
+  "snapshotHash": "a4772aff862a3298fa2bb92ad5d4db0b3513b232b399d2e76b235334d0548eb8",
+  "sourceCatalogHash": "2f74eaa8d55b4037b702c200ace510b9b9a7680c861070be0c04ee04e9824ed0",
+  "skillId": "mz-crayon-illustrations",
+  "skillVersion": "2.0.0"
+}

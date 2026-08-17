@@ -1,23 +1,23 @@
 {
   "format": "mz.public-skill/1",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "repository": "MuziGeek/mz-crayon-illustrations",
   "treeHashAlgorithm": "sha256(sorted payload-relative-path + tab + normalized-file-sha256 + LF)",
   "licenses": {
-    "code": "MIT",
-    "referenceAssets": "MZ Reference Asset License 1.0"
+    "code": "MIT"
   },
   "skill": {
     "id": "mz-crayon-illustrations",
     "directory": "mz-crayon-illustrations",
-    "treeHash": "92db6d119ca682fac91049dacc38b662df0c437d54978b870776c3dbd0262af2"
+    "treeHash": "0fe3bdf1c4db63fc95a1e32b705b581e306e9b6814148cac3be1960e4ab8ffba"
   },
   "visualEngine": {
-    "version": "1.2.0",
-    "snapshotHash": "a974ade64cd37b9402992e888455775dff9d8a72ce0165cbd8ad6aa0d4279e54"
+    "version": "2.0.0",
+    "snapshotHash": "a4772aff862a3298fa2bb92ad5d4db0b3513b232b399d2e76b235334d0548eb8",
+    "sourceCatalogHash": "2f74eaa8d55b4037b702c200ace510b9b9a7680c861070be0c04ee04e9824ed0"
   },
   "release": {
-    "tag": "v1.1.1",
+    "tag": "v2.0.0",
     "artifactChecksumAlgorithm": "sha256"
   }
 }

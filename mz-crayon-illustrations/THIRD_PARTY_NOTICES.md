@@ -9,7 +9,7 @@ This Skill independently adapts selected workflow ideas from Gimi Illustration S
 - Upstream license: MIT
 - Copyright: Copyright (c) 2026 Gimi
 
-No Gimi character images, calibration examples, horse-hood character anchors, color palette, prompts tied to the Gimi character, or runtime code are bundled or invoked. The Muzi identity, assets, crayon medium, review contract, and implementation remain independent.
+No Gimi character images, calibration examples, horse-hood character anchors, color palette, character-specific prompts, or runtime code are bundled or invoked. The public crayon medium, review contract, and implementation remain independent and identity-neutral.
 
 ### MIT License
 
