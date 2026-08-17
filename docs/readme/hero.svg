@@ -1,74 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">MZ Crayon Illustrations</title>
-  <desc id="desc">A warm hand-drawn workflow from one sourced judgment through a physical metaphor and a clear action to local review.</desc>
-
-  <rect width="1200" height="360" rx="28" fill="#F7F1E3"/>
-  <path d="M30 42C220 31 416 51 604 38S981 45 1170 31" fill="none" stroke="#E8DEC7" stroke-width="3" stroke-linecap="round"/>
-  <path d="M44 326C226 335 402 315 596 329S980 317 1162 331" fill="none" stroke="#E8DEC7" stroke-width="3" stroke-linecap="round"/>
-
-  <g transform="translate(70 66)">
-    <path d="M0 1H54" stroke="#C65A3A" stroke-width="7" stroke-linecap="round"/>
-    <path d="M4 9H38" stroke="#D9A514" stroke-width="4" stroke-linecap="round"/>
-    <text x="0" y="79" fill="#102A43" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="1">MZ CRAYON</text>
-    <text x="0" y="135" fill="#102A43" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing=".5">ILLUSTRATIONS</text>
-    <text x="2" y="183" fill="#425466" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">One judgment. One metaphor. One readable story.</text>
-    <g transform="translate(0 214)">
-      <rect width="120" height="30" rx="15" fill="#102A43"/>
-      <text x="60" y="20" text-anchor="middle" fill="#F7F1E3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1">v1.1.1</text>
-      <rect x="132" width="76" height="30" rx="15" fill="#E8DEC7"/>
-      <text x="170" y="20" text-anchor="middle" fill="#102A43" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">16:9</text>
-      <rect x="220" width="170" height="30" rx="15" fill="#D9A514"/>
-      <text x="305" y="20" text-anchor="middle" fill="#102A43" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing=".7">READY FOR REVIEW</text>
-    </g>
+  <desc id="desc">An identity-neutral crayon knowledge illustration workflow from one judgment to one review-ready physical metaphor.</desc>
+  <rect width="1200" height="360" rx="26" fill="#faf6eb"/>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#173557">
+    <text x="48" y="48" font-family="ui-monospace, monospace" font-size="15" font-weight="700" fill="#6d6a62">ONE JUDGMENT → ONE PHYSICAL METAPHOR</text>
+    <text x="48" y="124" font-size="56" font-weight="800">MZ Crayon Illustrations</text>
+    <path d="M52 144C210 134 338 152 484 140" fill="none" stroke="#e7ad1a" stroke-width="11" stroke-linecap="round"/>
+    <text x="48" y="192" font-size="23">Object-led by default. Character-aware by explicit Extension.</text>
+    <text x="48" y="232" font-family="ui-monospace, monospace" font-size="15" fill="#6d6a62">v2.0.0 · 1672×941 PNG · READY_FOR_REVIEW</text>
   </g>
-
-  <g transform="translate(616 55)">
-    <path d="M25 131C79 111 113 150 163 129S248 111 299 132 388 147 437 125 500 120 529 135" fill="none" stroke="#C65A3A" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 10"/>
-
-    <g transform="rotate(-2 77 129)">
-      <rect x="5" y="18" width="142" height="220" rx="18" fill="#FFFDF7" stroke="#102A43" stroke-width="3"/>
-      <path d="M12 24C46 17 112 22 140 29" fill="none" stroke="#6B7280" stroke-width="1.5" opacity=".35"/>
-      <text x="76" y="53" text-anchor="middle" fill="#C65A3A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.5">01 JUDGMENT</text>
-      <path d="M41 84H112M41 101H101M41 118H107" fill="none" stroke="#102A43" stroke-width="5" stroke-linecap="round"/>
-      <path d="M45 88H109M44 105H96" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" opacity=".35"/>
-      <path d="M52 160L70 178 106 143" fill="none" stroke="#D9A514" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M54 158L71 175 104 142" fill="none" stroke="#102A43" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="76" y="216" text-anchor="middle" fill="#6B7280" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10">SOURCE-BOUND</text>
-    </g>
-
-    <g transform="translate(140 7) rotate(1 77 129)">
-      <rect x="5" y="18" width="142" height="220" rx="18" fill="#FFFDF7" stroke="#102A43" stroke-width="3"/>
-      <path d="M11 232C53 238 101 231 142 235" fill="none" stroke="#6B7280" stroke-width="1.5" opacity=".35"/>
-      <text x="76" y="53" text-anchor="middle" fill="#C65A3A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.5">02 METAPHOR</text>
-      <path d="M31 164C46 122 58 105 76 105S106 123 122 164" fill="none" stroke="#102A43" stroke-width="6" stroke-linecap="round"/>
-      <path d="M34 165C48 130 61 113 76 113S103 128 119 165" fill="none" stroke="#D9A514" stroke-width="4" stroke-linecap="round"/>
-      <path d="M25 166H127" stroke="#102A43" stroke-width="5" stroke-linecap="round"/>
-      <circle cx="40" cy="91" r="13" fill="#D9A514" stroke="#102A43" stroke-width="3"/>
-      <circle cx="112" cy="91" r="13" fill="#C65A3A" stroke="#102A43" stroke-width="3"/>
-      <path d="M53 91C66 74 87 74 99 91" fill="none" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 7"/>
-      <text x="76" y="216" text-anchor="middle" fill="#6B7280" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10">PHYSICAL STORY</text>
-    </g>
-
-    <g transform="translate(280 -3) rotate(-1 77 129)">
-      <rect x="5" y="18" width="142" height="220" rx="18" fill="#FFFDF7" stroke="#102A43" stroke-width="3"/>
-      <path d="M11 26C51 19 98 28 140 23" fill="none" stroke="#6B7280" stroke-width="1.5" opacity=".35"/>
-      <text x="76" y="53" text-anchor="middle" fill="#C65A3A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.5">03 ACTION</text>
-      <circle cx="57" cy="105" r="21" fill="#D9A514" stroke="#102A43" stroke-width="4"/>
-      <path d="M65 126L82 156 57 184M79 151L111 137M80 152L105 177" fill="none" stroke="#102A43" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M35 191C54 198 90 198 117 190" fill="none" stroke="#C65A3A" stroke-width="5" stroke-linecap="round"/>
-      <path d="M29 78L39 72M105 82L116 75M113 111L126 109" stroke="#6B7280" stroke-width="3" stroke-linecap="round"/>
-      <text x="76" y="216" text-anchor="middle" fill="#6B7280" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10">CLEAR FLOW</text>
-    </g>
-
-    <g transform="translate(420 5) rotate(2 77 129)">
-      <rect x="5" y="18" width="142" height="220" rx="18" fill="#FFFDF7" stroke="#102A43" stroke-width="3"/>
-      <path d="M11 231C51 236 101 229 140 233" fill="none" stroke="#6B7280" stroke-width="1.5" opacity=".35"/>
-      <text x="76" y="53" text-anchor="middle" fill="#C65A3A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.5">04 REVIEW</text>
-      <rect x="34" y="81" width="85" height="102" rx="10" fill="#F7F1E3" stroke="#102A43" stroke-width="4"/>
-      <path d="M50 107H103M50 128H94M50 149H84" stroke="#6B7280" stroke-width="4" stroke-linecap="round"/>
-      <circle cx="105" cy="168" r="25" fill="#D9A514" stroke="#102A43" stroke-width="4"/>
-      <path d="M94 168L102 176 117 159" fill="none" stroke="#102A43" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="76" y="216" text-anchor="middle" fill="#6B7280" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10">LOCAL GATE</text>
-    </g>
+  <g transform="translate(720 48)" stroke="#173557" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="420" height="264" rx="24" fill="#fffdf7"/>
+    <path d="M46 198C118 142 126 74 192 80c54 5 45 81 94 84 31 2 42-25 88-61" fill="none"/>
+    <circle cx="48" cy="198" r="18" fill="#b95336"/><rect x="164" y="54" width="58" height="58" rx="10" fill="#f3c54d"/>
+    <path d="M270 208l49-49 49 49" fill="none"/><path d="M70 238c64-10 135 9 198-2 46-8 78 2 116-8" fill="none" stroke="#e7ad1a" stroke-width="10"/>
   </g>
 </svg>

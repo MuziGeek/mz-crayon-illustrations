@@ -1,73 +1,12 @@
-# 构图与表达方法
+# Composition patterns
 
-本文件是单张木子插图表达层的唯一规则源。先理解判断，再决定物件、分工、动线与构图；身份与蜡笔媒介分别由 `identity.md` 和 `style-dna.md` 锁定。
+Choose one information structure: `single-point`, `comparison`, `sequence`, `state`, `environment`, or `focus`.
 
-## 决策顺序
+- `single-point`: one dominant object relationship and one clear outcome.
+- `comparison`: two balanced states with one meaningful contrast.
+- `sequence`: two to four connected nodes with an unambiguous reading direction.
+- `state`: one object system showing before/after, blocked/flowing, or fragile/stable.
+- `environment`: a small coherent scene in which every object serves the judgment.
+- `focus`: one close relationship with surrounding context reduced.
 
-1. **核心判断**：写出观众看完应记住的一句话。每张图只允许一个判断。
-2. **信息结构**：从六类中选一类。
-3. **具名物件**：优先提取用户输入中的具体名词；不自动检索外部图片、地标、品牌或事实。
-4. **物件分工**：每个物件标明 `problem`、`action`、`result` 或 `state`，不能只为装饰。
-5. **故事动线**：写清视线、手势、箭头或路径如何让读者跟完“发生了什么”。
-6. **构图与密度**：选择一种构图和一档密度，最后才决定动作参考。
-
-## 信息结构
-
-| 值 | 中文 | 适用内容 |
-| --- | --- | --- |
-| `single-point` | 单点 | 一个结论、一个关键物件或一个澄清 |
-| `comparison` | 对比 | 旧与新、问题与答案、两种选择 |
-| `sequence` | 序列 | 2–4 个步骤、节点或状态变化 |
-| `state` | 状态 | 卡住、松开、打开、变轻、恢复等变化 |
-| `environment` | 环境 | 用空间关系表达困境、尺度或情绪 |
-| `focus` | 聚焦 | 从复杂信息中突出最重要对象 |
-
-## 密度
-
-- `minimal`：1–3 个物件。用于单点、近景、物件特写和极简隐喻。
-- `narrative`：3–6 个物件。用于对比、序列和环境场景；依靠大小、位置、线条和留白建立层级，不能靠增加颜色制造丰富。
-
-默认从信息结构推断：`single-point`、`state`、`focus` 优先 `minimal`；`comparison`、`sequence`、`environment` 优先 `narrative`。内容不足以支撑高密度时必须降为 `minimal`，不能发明事实或装饰物填满画面。
-
-## 构图模式
-
-| 值 | 中文 | 画法 |
-| --- | --- | --- |
-| `centered` | 单主体居中 | 主体置中，四周保留安静区域 |
-| `side-by-side` | 对比并置 | 两个元素左右或上下对照，差异一眼可见 |
-| `character-action` | 行动中人物 | 木子处于动作过程中，手与物件关系完整 |
-| `object-closeup` | 物件特写 | 放大一个关键物件，木子通过手、视线或局部动作参与 |
-| `environment-metaphor` | 环境隐喻 | 木子处于较大环境中，用尺度和空间表达处境 |
-| `mini-metaphor` | 迷你隐喻 | 三个以内元素组成一个完整原创物理隐喻 |
-| `sequence` | 序列逻辑 | 2–4 个等权主节点按阅读顺序排列 |
-| `information-focus` | 信息聚焦 | 一个主焦点，辅助物件缩小并服务于判断 |
-| `emotion-closeup` | 情绪近景 | 放大表情或身体语言，只用于确有情绪或审视细节的判断 |
-
-每张图只选一种主构图。若没有合适模式，可以重新描述为最接近的模式，但 review 中仍须记录上述枚举值。
-
-## 物件与分工
-
-- 主载体只设一个；其它物件分别承担问题来源、动作入口、结果或状态。
-- 专业知识优先使用用户输入中的专业物件，例如坐标系、函数曲线、文档、分支或终端；不要默认用灯泡、钥匙、围栏、齿轮或万能机器替代。
-- 放大镜、卡片、盒子等动作参考中的道具不自动进入新画面，除非它们确实服务本次判断。
-- 真实地点、品牌、界面和数字只有在用户输入或素材已提供并可确认时才能出现；否则改用泛称或省略。
-
-## 故事动线
-
-- `minimal` 也要写动线，例如“木子的视线与手势 → 主物件 → 结果标签”。
-- `narrative` 写清 A → B → C；箭头、路径、视线或动作承担连接，不让物件散落。
-- 序列构图只画 2–4 个主节点。错误、回退或异常状态收入相关节点内部，不额外伪装成同级步骤。
-- 标签贴近对应物件或动线节点；标签不承担画面缺失的逻辑。
-
-## 木子参与方式
-
-木子必须判断、操作、连接、引导或解释。专业物件可以承担主要含义，木子可以作为主动导游，但不能只站在角落微笑、指向成品或充当装饰。
-
-先按动作语义查动作库：单一姿态能帮助画面时使用 `library`；对比、环境、序列或复杂交互被固定姿态限制时使用 `free`。任何模式都不得同时加载两张动作参考。
-
-## 小猫陪伴方式
-
-- 小猫只在 `companion mode: include` 时出现，并留在木子的角色群组内：全身画面靠近脚边，半身画面靠近手臂或肩侧，不能固定贴在画面角落。
-- 小猫只通过视线、耳朵、尾巴和简洁身体姿态呼应木子的情绪或关注方向；不能拿道具、触碰主物件、承担结果或成为故事动线节点。
-- 小猫不计入 `objects` 数量，不附标签，不连接箭头，不占安静区域；若它让木子、主物件、标签或留白缩小，改为 `exclude`。
-- 一张图最多一只小猫，且其可见面积不超过木子角色面积约三分之一。
+Use 1–3 named objects for `minimal` and 3–6 for `narrative`. Give every object one role: `problem`, `action`, `result`, or `state`. Connect the story with position, scale, gaze if a supplied character is present, arrows, or a physical path. Do not scatter unrelated decoration.

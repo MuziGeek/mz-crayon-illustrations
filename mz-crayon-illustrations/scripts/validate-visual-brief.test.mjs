@@ -9,14 +9,15 @@ import { fileURLToPath } from "node:url";
 const scripts = path.dirname(fileURLToPath(import.meta.url));
 const validator = path.join(scripts, "validate_visual_brief.py");
 
-function resolvedBrief(preset = "mz-crayon-v2") {
+function resolvedBrief(preset = "mz-crayon-base-v1") {
   return {
-    format: "mz.visual-brief/1", engineVersion: "1.2.0", status: "RESOLVED",
+    format: "mz.visual-brief/1", engineVersion: "2.0.0", status: "RESOLVED",
     request: { summary: "Explain a knowledge judgment" }, intent: {},
     asset: { profile: "knowledge-illustration" },
     style: { preset: { id: preset } },
     target: { skill: "mz-crayon-illustrations", mode: "knowledge-illustration" },
-    generation: {}, provenance: {}
+    generation: {}, provenance: {},
+    engineCompat: { format: "mz.engine-compat/1", engineVersion: "2.0.0", target: "illustration", snapshotHash: "a4772aff862a3298fa2bb92ad5d4db0b3513b232b399d2e76b235334d0548eb8", sourceCatalogHash: "2f74eaa8d55b4037b702c200ace510b9b9a7680c861070be0c04ee04e9824ed0" }
   };
 }
 
